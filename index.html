@@ -11,11 +11,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
     <script>
 const photoPaths = [
-    'Me Ry Chit Mot/image1.jpeg',
-    'Me Ry Chit Mot/image2.jpeg',
-    'Me Ry Chit Mot/image3.jpeg',
-    'Me Ry Chit Mot/image4.jpeg',
-    'Me Ry Chit Mot/image5.jpeg'
+    'Me%20Ry%20Chit%20Mot/image1.jpeg',
+    'Me%20Ry%20Chit%20Mot/image2.jpeg',
+    'Me%20Ry%20Chit%20Mot/image3.jpeg',
+    'Me%20Ry%20Chit%20Mot/image4.jpeg',
+    'Me%20Ry%20Chit%20Mot/image5.jpeg'
 ];
 const photoTextures = photoPaths.map(path => new THREE.TextureLoader().load(path));
 let photoMeshes = []; 
